@@ -462,7 +462,7 @@ header .box nav .hamburger {
   right: 0;
   top: 0;
   bottom: 0;
-  background: url(bg.png);
+  background: url(bg.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -658,7 +658,7 @@ header .box nav .hamburger {
 }
 
 .section3 {
-  background-image: url(sec3.png);
+  background-image: url(sec3.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
