@@ -471,6 +471,7 @@ header {
 }
 .section2 {
 	margin-bottom: 5%;
+	overflow: hidden;
 	.arrows {
 		display: inline-block;
 		background: #2c2c2c;
@@ -490,11 +491,17 @@ header {
 		}
 		&.next-s-slider {
 			background-image: url(./right-arrow-white.png);
-			right: 15px;
+			right: -25px;
+			@media screen and (max-width: 1201px) {
+				right: 15px;
+			}
 		}
 		&.prev-s-slider {
-			left: 15px;
 			background-image: url(./left-arrow-white.png);
+			right: -25px;
+			@media screen and (max-width: 1201px) {
+				left: 15px;
+			}
 		}
 	}
 	.s-slider2 {
