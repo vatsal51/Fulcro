@@ -256,7 +256,12 @@ img {
 @media screen and (max-width: 768px) {
   .grad-wrap .key-features .key-title img {
     margin-top: 20px;
-    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grad-wrap .key-features .key-title img {
+    display: block;
   }
 }
 
@@ -278,7 +283,7 @@ img {
   padding: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .grad-wrap .key-features .features div {
     width: 100%;
     -webkit-box-flex: 1;
@@ -377,8 +382,8 @@ header .box nav ul {
   header .box nav ul.open {
     visibility: visible;
     opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(15.5px);
+            transform: translateY(15.5px);
   }
 }
 
