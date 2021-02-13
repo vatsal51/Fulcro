@@ -195,9 +195,13 @@ img {
 	.key-features {
 		padding: 5% 15% 10%;
 		margin-bottom: 5%;
-		@media screen and (max-width: 1025px) {
+		@media screen and (max-width: 1250px) {
+			padding: 5% 5% 10%;
+		}
+		@media screen and (max-width: 769px) {
 			padding: 5% 0 10%;
 		}
+
 
 		.key-title {
 			font-size: 16px;
@@ -223,10 +227,11 @@ img {
 
 		.features {
 			display: flex;
-			justify-content: space-between;
+			justify-content: space-evenly;
+   align-items: flex-start;
 			flex-wrap: wrap;
 			div {
-				flex: 1 33.33%;
+				flex: 1 33%;
 				padding: 5px;
 				@media screen and (max-width: 769px) {
 					width: 100%;
@@ -544,7 +549,7 @@ header {
 				@media screen and (max-width: 1025px) {
 					font-size: 20px;
 					line-height: 20px;
-					max-height: 40px;
+					min-height: 40px;
 				}
 			}
 			a {

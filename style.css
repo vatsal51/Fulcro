@@ -228,7 +228,13 @@ img {
   margin-bottom: 5%;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1250px) {
+  .grad-wrap .key-features {
+    padding: 5% 5% 10%;
+  }
+}
+
+@media screen and (max-width: 769px) {
   .grad-wrap .key-features {
     padding: 5% 0 10%;
   }
@@ -269,17 +275,20 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .grad-wrap .key-features .features div {
   -webkit-box-flex: 1;
-      -ms-flex: 1 33.33%;
-          flex: 1 33.33%;
+      -ms-flex: 1 33%;
+          flex: 1 33%;
   padding: 5px;
 }
 
@@ -669,7 +678,7 @@ header .box nav .hamburger {
   .section2 .s-slider2 .slider-wrapper h3 {
     font-size: 20px;
     line-height: 20px;
-    max-height: 40px;
+    min-height: 40px;
   }
 }
 
