@@ -586,7 +586,6 @@ header .box nav .hamburger {
 
 .section2 {
   margin-bottom: 5%;
-  overflow: hidden;
 }
 
 .section2 .arrows {
@@ -635,7 +634,7 @@ header .box nav .hamburger {
 }
 
 .section2 .s-slider2 .slider-wrapper {
-  background: url(card1.png);
+  background: url(card1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

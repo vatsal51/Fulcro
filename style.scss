@@ -202,7 +202,6 @@ img {
 			padding: 5% 0 10%;
 		}
 
-
 		.key-title {
 			font-size: 16px;
 			color: #f3d9ca;
@@ -228,7 +227,7 @@ img {
 		.features {
 			display: flex;
 			justify-content: space-evenly;
-   align-items: flex-start;
+			align-items: flex-start;
 			flex-wrap: wrap;
 			div {
 				flex: 1 33%;
@@ -306,7 +305,7 @@ header {
 				@media only screen and (max-width: 768px) {
 					position: absolute;
 					right: 0;
-					background: rgba(0,0,0,0.7);
+					background: rgba(0, 0, 0, 0.7);
 					padding: 10px;
 					margin-top: 39px;
 					visibility: hidden;
@@ -478,7 +477,7 @@ header {
 }
 .section2 {
 	margin-bottom: 5%;
-	overflow: hidden;
+	// overflow: hidden;
 	.arrows {
 		display: inline-block;
 		background: #2c2c2c;
@@ -513,7 +512,7 @@ header {
 	}
 	.s-slider2 {
 		.slider-wrapper {
-			background: url(card1.png);
+			background: url(card1.jpg);
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
