@@ -10,6 +10,19 @@ html {
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  background: 0 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+
 /*! Slick Basic Required Code  */
 .slick-slider * {
   outline: 0 !important;
