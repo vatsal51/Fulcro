@@ -364,7 +364,7 @@ header .box nav ul {
   header .box nav ul {
     position: absolute;
     right: 0;
-    background: rgba(204, 158, 99, 0.4);
+    background: rgba(0, 0, 0, 0.7);
     padding: 10px;
     margin-top: 39px;
     visibility: hidden;
@@ -404,7 +404,7 @@ header .box nav ul li a {
 }
 
 header .box nav ul li a:hover {
-  color: orange;
+  color: green;
 }
 
 header .box nav ul li a::before {
@@ -418,7 +418,7 @@ header .box nav ul li a::before {
   transition: 0.3s all ease-in-out;
   width: 0;
   height: 2px;
-  background: green;
+  background: orange;
 }
 
 header .box nav ul li a:hover::before {
@@ -611,7 +611,7 @@ header .box nav .hamburger {
 
 .section2 .arrows.prev-s-slider {
   background-image: url(./left-arrow-white.png);
-  right: -25px;
+  left: -25px;
 }
 
 @media screen and (max-width: 1201px) {
@@ -890,6 +890,12 @@ header .box nav .hamburger {
   max-width: 50%;
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 769px) {
+  .articles .article-title p {
+    width: 100%;
+  }
 }
 
 .articles .article-wrap {
